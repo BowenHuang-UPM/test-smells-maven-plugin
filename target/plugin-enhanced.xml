@@ -5,9 +5,9 @@
 <plugin>
   <name>test-smells-maven-plugin</name>
   <description></description>
-  <groupId>es.upm.grise.prof</groupId>
+  <groupId>com.github.BowenHuangZFOZ</groupId>
   <artifactId>test-smells-maven-plugin</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2</version>
   <goalPrefix>test-smells</goalPrefix>
   <isolatedRealm>false</isolatedRealm>
   <inheritedByDefault>true</inheritedByDefault>
@@ -23,7 +23,7 @@
       <requiresOnline>false</requiresOnline>
       <inheritedByDefault>true</inheritedByDefault>
       <phase>test</phase>
-      <implementation>es.upm.grise.prof.TsDetectMojo</implementation>
+      <implementation>com.github.BowenHuangZFOZ.TsDetectMojo</implementation>
       <language>java</language>
       <instantiationStrategy>per-lookup</instantiationStrategy>
       <executionStrategy>once-per-session</executionStrategy>

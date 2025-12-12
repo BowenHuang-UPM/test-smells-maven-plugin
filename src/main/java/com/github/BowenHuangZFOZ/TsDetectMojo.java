@@ -1,4 +1,4 @@
-package es.upm.grise.prof;
+package com.github.BowenHuangZFOZ; 
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
