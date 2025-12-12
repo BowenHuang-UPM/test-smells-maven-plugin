@@ -39,10 +39,10 @@
       <scope>provided</scope>
     </dependency>
 
-           <dependency>
+    <dependency>
 	    <groupId>com.github.BowenHuang-UPM</groupId>
 	    <artifactId>test-smells-maven-plugin</artifactId>
-	    <version>Tag</version>
+	    <version>0.0.1</version>
 	</dependency>
            
   </dependencies>
@@ -81,7 +81,7 @@
 
  <repositories>
 	<repository>
-	         <id>jitpack.io</id>
+	    <id>jitpack.io</id>
 		<url>https://jitpack.io</url>
 	</repository>
  </repositories>
