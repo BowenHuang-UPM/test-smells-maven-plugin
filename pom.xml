@@ -38,6 +38,13 @@
       <version>${maven.version}</version>
       <scope>provided</scope>
     </dependency>
+
+           <dependency>
+	    <groupId>com.github.BowenHuang-UPM</groupId>
+	    <artifactId>test-smells-maven-plugin</artifactId>
+	    <version>Tag</version>
+	</dependency>
+           
   </dependencies>
   
   <build>
@@ -71,4 +78,11 @@
       </plugin>
     </plugins>
   </build>
+
+ <repositories>
+	<repository>
+	         <id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+ </repositories>
 </project>
